@@ -102,6 +102,7 @@ const BYOK_INSUFFICIENT_SLUGS = new Set([
 
 // Silent ToS / End User carve-out / no-public-ToS — default conservative.
 const AMBIGUOUS_DEFAULT_BYOK_SLUGS = new Set([
+  "litescrape",   // Default to BYOK until gateway pooling is configured.
   // Lane 6.1 (PR #19):
   "openai",       // GPT/Whisper inference
   "firecrawl",    // confirmed permissive — pending opt-in hardening
