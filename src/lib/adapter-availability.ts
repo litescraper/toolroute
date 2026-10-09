@@ -36,6 +36,7 @@ const REQUIRED_ENV_BY_ADAPTER: Record<string, string[]> = {
   higgsfield: ["HIGGSFIELD_API_KEY"],
   hubspot: ["HUBSPOT_ACCESS_TOKEN"],
   image: ["FAL_KEY"],
+  serper: ["SERPER_API_KEY"],
   linear: ["LINEAR_API_KEY"],
   linkedin: ["LINKEDIN_ACCESS_TOKEN"],
   mux: ["MUX_TOKEN_ID", "MUX_TOKEN_SECRET"],

@@ -1,6 +1,8 @@
 # Lane 6.7 — Verified 49-slug BYOK list (extends Lane 6.5 patch)
 
 **Status:** AUDIT-EXTENSION — code-ready Set replacing Lane 6.5's 4-slug placeholder.
+
+Integration extension: serper is conservatively BYOK-gated, not newly ToS-audited. The historical 49-of-51 audit counts below refer to the original provider set; the current gated set has 50 slugs (30 required + 1 insufficient + 19 ambiguous). No provider pooling authorization is assumed.
 **Owner:** Claude (Lane 6)
 **Hard Rule cross-refs:** #13, #34, #57, #60
 **Depends on:** Lane 6.5 (PR #23 — runtime patch shape) + Lane 6.6 (PR #27 — verified provider list)
@@ -102,6 +104,7 @@ const BYOK_INSUFFICIENT_SLUGS = new Set([
 
 // Silent ToS / End User carve-out / no-public-ToS — default conservative.
 const AMBIGUOUS_DEFAULT_BYOK_SLUGS = new Set([
+  "serper",   // Conservative BYOK default; no provider pooling authorization assumed.
   // Lane 6.1 (PR #19):
   "openai",       // GPT/Whisper inference
   "firecrawl",    // confirmed permissive — pending opt-in hardening

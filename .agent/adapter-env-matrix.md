@@ -31,6 +31,7 @@ Notes:
 | higgsfield | `HIGGSFIELD_API_KEY` | None |
 | hubspot | `HUBSPOT_ACCESS_TOKEN` | None |
 | image | `FAL_KEY` | None |
+| serper | `SERPER_API_KEY` | `SERPER_BASE_URL` |
 | linear | `LINEAR_API_KEY` | None |
 | linkedin | `LINKEDIN_ACCESS_TOKEN` | None |
 | mux | `MUX_TOKEN_ID`, `MUX_TOKEN_SECRET` | None |
