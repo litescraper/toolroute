@@ -94,6 +94,7 @@ export const BYOK_INSUFFICIENT_SLUGS: ReadonlySet<string> = new Set([
  * Silent ToS / End User carve-out / no-public-ToS — default conservative.
  */
 export const AMBIGUOUS_DEFAULT_BYOK_SLUGS: ReadonlySet<string> = new Set([
+  "litescrape",   // Conservative BYOK default; no provider pooling authorization assumed.
   // Lane 6.1 (PR #19)
   "openai",       // GPT/Whisper inference
   "firecrawl",    // confirmed permissive — pending opt-in hardening

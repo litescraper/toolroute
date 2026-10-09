@@ -31,6 +31,7 @@ Notes:
 | higgsfield | `HIGGSFIELD_API_KEY` | None |
 | hubspot | `HUBSPOT_ACCESS_TOKEN` | None |
 | image | `FAL_KEY` | None |
+| litescrape | `LITESCRAPE_API_KEY` | `LITESCRAPE_BASE_URL` |
 | linear | `LINEAR_API_KEY` | None |
 | linkedin | `LINKEDIN_ACCESS_TOKEN` | None |
 | mux | `MUX_TOKEN_ID`, `MUX_TOKEN_SECRET` | None |
